@@ -1,0 +1,231 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #a2a3a7;
+}
+
+body {
+    padding-top: 4rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: #363940;
+    overflow-x: hidden;
+}
+.detailcontainer {
+    padding: 1rem;
+}
+h3,
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    -webkit-text-stroke: 0.5px;
+    margin-bottom: 1rem;
+}
+h6 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.1px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #a2a3a7;
+    -webkit-text-stroke: 0.5px;
+    margin-bottom: 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+.allprojects {
+    color: #a2a3a7;
+    border-left: solid 2px rgb(104, 104, 104);
+    padding: 1rem 2rem;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tasklist {
+    width: 60%;
+    padding: 1rem;
+}
+input {
+    outline: none;
+}
+tr {
+    margin: 0.7rem 0;
+}
+/* 
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+#box {
+    width: 35%;
+    height: 450px;
+    margin: 2rem auto;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    background-color: #363940;
+}
+.chat {
+    width: 15%;
+    padding: 1rem;
+    background-color: #313236;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    overflow-y: scroll; 
+}
+
+.chat::-webkit-scrollbar {
+    display: none; 
+}
+*/
+.contact {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+}
+.newproj {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 15px;
+    box-sizing: border-box;
+    -webkit-text-stroke: 0.1px;
+    background-color: #405dc3;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    margin-top: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container a {
+    position: relative;
+    margin: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-text-stroke: 0.1px;
+    background-color: #405dc3;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    margin-top: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#inputs {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bottom {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    outline: none;
+}
+
+.right_a {
+    float: right;
+}
+
+.navbar {
+    background-color: #36373c;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    border-bottom: solid 2px rgb(102, 102, 102);
+}
+
+.container1 {
+    font-size: 1.2rem;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #36373c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 30px;
+    border-bottom: solid 2px rgb(188, 188, 188);
+}
+
+.container1 ul {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.container1 ul li {
+    margin: 20px;
+}
+
+.container1 li a:hover,
+.container1 ul li a.current {
+    color: #f9f9f9;
+    border-bottom: 2px solid #fdfdfd;
+}
+
+.container1 ul li a {
+    padding: 7px;
+}
+
+li {
+    list-style: none;
+}
+.butt:hover {
+    background-color: #677bc4;
+    box-shadow: 0 8px 24px 0 #677bc45e;
+}
+
+#taskname,
+#description,
+#dates {
+    margin: 1rem 0;
+}
+
+#selectuser {
+    vertical-align: middle;
+}
+progress {
+    width: 100%;
+}
